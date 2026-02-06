@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <p>Hello world</p>
-      <Hello name = "Ved" age = "25" />  
+      <Hello name = "Sid" age = "25" />  
     </div>
   )
 }
