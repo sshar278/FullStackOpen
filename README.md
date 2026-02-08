@@ -13,5 +13,9 @@
 
 6. React hooks are functions that let React function components store state, run side effects, and remember values across renders.
 
+6. Event handlers are your own functions that will be triggered in response to interactions like clicking, hovering, focusing form inputs, and so on.
+
+
+
 
 

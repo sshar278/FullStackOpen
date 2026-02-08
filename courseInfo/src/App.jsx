@@ -99,14 +99,21 @@ const App = () => {
 
   const [ counter, setCounter ] = useState(0)
 
+  const increaseByOne = () => {
+    setCounter(counter + 1)
+  }
 
-  setTimeout(
-    () => setCounter(counter + 1),
-    1000
-  )
+  const setToZero = () => {
+    setCounter(0)
+  }
+
 
   return (
+    <>
     <div>{counter}</div>
+    <button onClick={increaseByOne}>Plus</button>
+    <button onClick={setToZero}>Reset</button>
+    </>
   )
 }
 
