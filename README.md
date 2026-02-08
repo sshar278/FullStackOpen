@@ -11,5 +11,7 @@
 
 5. Although a variable declared with const cannot be reassigned to a different value, the contents of the object it references can still be modified.
 
+6. React hooks are functions that let React function components store state, run side effects, and remember values across renders.
+
 
 
