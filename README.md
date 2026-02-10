@@ -15,6 +15,7 @@
 
 6. Event handlers are your own functions that will be triggered in response to interactions like clicking, hovering, focusing form inputs, and so on.
 
+7. Lifting state up means moving state from a child component to the closest common parent so multiple components can share it. lifting state up directly improves modularity by separating shared data and logic from reusable UI components.
 
 
 
