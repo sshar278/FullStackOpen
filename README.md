@@ -17,6 +17,14 @@
 
 7. Lifting state up means moving state from a child component to the closest common parent so multiple components can share it. lifting state up directly improves modularity by separating shared data and logic from reusable UI components.
 
+8. React forbids direct state mutation because it relies on immutable updates to detect changes, re-render correctly, and remain predictable—especially under concurrent rendering.
+
+9. Calling a React state setter does not update the state immediately; it schedules a re-render, and the new state is available only in the next render.
+
+10. When you use console.log for debugging, don't combine objects in a Java-like fashion by using the plus operator, rather use comma (,)
+
+11. Hooks must be called at the top level of a React function component.
+
 
 
 
